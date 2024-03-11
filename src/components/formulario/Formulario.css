@@ -1,0 +1,21 @@
+.contenedor {
+    width: 60%;
+    border: 2px solid lightblue; 
+    padding: 20px;
+    margin: 20px auto; 
+    text-align: center;
+  }
+  
+  
+  .etiquetas {
+    text-transform: uppercase;
+    color: greenyellow;
+    padding: 5px;
+    font-size: 1.2em; 
+  }
+  
+  
+  .botones {
+    margin-top: 10px; 
+  }
+  

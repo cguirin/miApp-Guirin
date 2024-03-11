@@ -1,0 +1,19 @@
+/* ItemCount.css */
+.counter {
+    color: white;
+}
+
+.d-flex {
+    margin-bottom: 10px; }
+
+.btn {
+    font-weight: bold; 
+}
+
+/* Estilos para  el botón "AÑADIR AL CARRITO" */
+
+.btn-primary {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
