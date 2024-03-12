@@ -46,7 +46,9 @@ function Navegador() {
               <Nav.Link as={NavLink} to='/Registrate' className="text-white">Registrate</Nav.Link>
             </Nav>
             <div className="ms-auto">
-              <CartWidget />
+              <NavLink to='/cart'>
+                <CartWidget />
+              </NavLink>
             </div>
           </Navbar.Collapse>
         </Container>

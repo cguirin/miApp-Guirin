@@ -4,10 +4,10 @@ import Badge from 'react-bootstrap/Badge';
 
 const CartWidget = () => {
     return (
-        <>
+        <div>
         <BsCartFill  fontSize={'2rem'}/>
         <Badge bg="danger">30</Badge>
-        </>
+        </div>
     )
 }
 
