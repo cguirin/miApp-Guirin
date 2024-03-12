@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useState } from 'react';
 import CartWidget from '../cartwidget/CartWidget';
 import './Navbar.css';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Navegador() {
   const [showMenu, setShowMenu] = useState(false);
@@ -21,14 +21,14 @@ function Navegador() {
         <Container>
           <Navbar.Brand as={NavLink} to='/' className="d-flex justify-content-center">
             <img
-                src="/img/logo.jpg"
-                width="50"
-                height="50"
-                className="d-inline-block align-top"
-                style={{ borderRadius: '50%' }}
-                alt="Logo"
-              />
-           
+              src="/img/logo.jpg"
+              width="50"
+              height="50"
+              className="d-inline-block align-top"
+              style={{ borderRadius: '50%' }}
+              alt="Logo"
+            />
+
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={toggleMenu} />
           <Navbar.Collapse id="basic-navbar-nav" className={showMenu ? 'show' : ''}>
