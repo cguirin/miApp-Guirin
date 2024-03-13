@@ -26,11 +26,8 @@ const FormularioRegistro = () => {
           <Form.Control type="password" placeholder="Ingrese su contraseña" />
         </Form.Group>
 
-        <Button className="botones" variant="primary" type="submit">
-          Ingresar
-        </Button>
-        <Button className="botones" variant="secondary" type="button">
-          Registrarse
+        <Button className="botones" variant="info" type="button">
+          Iniciar Sesión
         </Button>
       </Form>
     </div>
@@ -38,4 +35,3 @@ const FormularioRegistro = () => {
 };
 
 export default FormularioRegistro;
-

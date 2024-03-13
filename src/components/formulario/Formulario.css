@@ -1,9 +1,9 @@
-.contenedor {
+ .contenedor {
     width: 60%;
-    border: 2px solid lightblue; 
-    padding: 20px;
-    margin: 20px auto; 
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
   }
   
   
