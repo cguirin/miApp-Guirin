@@ -16,7 +16,7 @@ function Navegador() {
 
   return (
     <div>
-      <h1 className="text-center mt-3" lang="en" style={{ color: 'limegreen', fontFamily: 'Roboto, sans-serif', padding: '10px' }}>SEMIMARKET</h1>
+      <h1 className="text-center mt-3" lang="en" style={{ color: 'limegreen', fontFamily: 'cursive', padding: '10px' }}>SEMIMARKET</h1>
       <Navbar expand="lg" className="bg-body-tertiary Navegador">
         <Container>
           <Navbar.Brand as={NavLink} to='/' className="d-flex justify-content-center">
@@ -43,12 +43,15 @@ function Navegador() {
               </NavDropdown>
             </Nav>
             <Nav className="ms-auto">
-              <Nav.Link as={NavLink} to='/Registrate' className="text-white">Registrate</Nav.Link>
+              <Nav.Link as={NavLink} to='/Comentanos' className="text-white">COMÉNTANOS</Nav.Link>
             </Nav>
             <div className="ms-auto">
-              <NavLink to='/cart'>
+              <NavLink to='/cart' style={{ textDecoration: 'none' }}>
+
                 <CartWidget />
+
               </NavLink>
+
             </div>
           </Navbar.Collapse>
         </Container>

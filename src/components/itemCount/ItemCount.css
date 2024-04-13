@@ -1,4 +1,4 @@
-/* ItemCount.css */
+
 .counter {
     color: white;
 }
@@ -9,8 +9,6 @@
 .btn {
     font-weight: bold; 
 }
-
-/* Estilos para  el botón "AÑADIR AL CARRITO" */
 
 .btn-primary {
     display: block;
